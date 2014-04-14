@@ -442,7 +442,8 @@ public class DroidFish extends BaseGameActivity implements GUIInterface, OnClick
     private boolean isOpponentResign = false;
     private boolean isOpponentTimeOut = false;
     private boolean isLeaveRoom = false;
-    private Handler h;
+    private Handler mHandler;
+    private Runnable myRunnable;
     private boolean isMatch = false;
     
     // For Cloud Save
@@ -3913,7 +3914,11 @@ public class DroidFish extends BaseGameActivity implements GUIInterface, OnClick
     private void startMultiplayerGameMode(int n) 
     {   	
     	isMatch = true;
-    	h = null;
+    	if(mHandler != null) {
+    		mHandler.removeCallbacks(myRunnable);
+    		mHandler = null;
+    		myRunnable = null;
+    	}
     	if(n == 0)
     		myTurn = true;
     	else
@@ -4394,17 +4399,18 @@ public class DroidFish extends BaseGameActivity implements GUIInterface, OnClick
         startMultiplayerGameMode(imFirstType);
         
         if(mSecondsLeft > 0) {
-	        // run the gameTick() method every second to update the game.
-	        h = new Handler();
-	        h.postDelayed(new Runnable() {
+        	mHandler = new Handler();
+        	myRunnable = new Runnable() {
 	            @Override
 	            public void run() {
 	                if (mSecondsLeft <= 0)
 	                    return;
 	                gameTick();
-	                h.postDelayed(this, 1000);
+	                mHandler.postDelayed(this, 1000);
 	            }
-	        }, 1000);
+			};      	
+	        // run the gameTick() method every second to update the game.	        
+	        mHandler.postDelayed(myRunnable, 1000);
         }
         resetGameBoolVars();       
     }
@@ -5158,6 +5164,8 @@ public class DroidFish extends BaseGameActivity implements GUIInterface, OnClick
     }
     
     private void handleGMSMatchComplete(int result) {
+    	if(mHandler != null)
+    		mHandler.removeCallbacks(myRunnable);
     	isMatch = false;
     	if(mSaveGame.getStatsFromName(ConstantsData.CH_KEY_PLAYED) == 0) {
     		unlockAchievement(0);
