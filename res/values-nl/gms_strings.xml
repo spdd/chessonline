@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="btn_str_play">Single player</string>
+<string name="btn_str_stats">stats</string>
+<string name="btn_str_options">opties</string>
+<string name="btn_str_about">over</string>
+<string name="btn_str_multiplayer">Speel online</string>
+<string name="btn_str_rate_app">Beoordeel spel</string>
+
+<string name="str_gms_please_wait">even geduld aub</string>
+<string name="str_gms_accept_popup_invite">Te accepteren!</string>
+<string name="quick_game">Snel spel</string>
+<string name="invite_players">Invate spelers</string>
+<string name="see_invitations">Zie uitnodigingen</string>
+<string name="quick_game_explanation">Snel spel uitleg</string>
+<string name="invite_players_explanation">Nodig spelers uitleg</string>
+<string name="see_invitations_explanation">Zie uitnodigingen uitleg</string>
+<string name="inv_popup_text">Inkomende uitnodiging!</string>
+<string name="accept_popup_invite">Te accepteren!</string>
+<string name="sign_out">sigh uit</string>
+<string name="is_inviting_you">daagt je uit om een ​​spel!</string>
+<string name="str_gms_you_title">me</string>
+<string name="str_gms_btn_leaderboard">leaderboards</string>
+<string name="str_gms_btn_achive">prestatie</string>
+<string name="str_gms_hi">Hi,</string>
+<string name="str_gms_leave_opponent_toast">Tegenstander het spel verlaten</string>
+
+<string name="gamehelper_app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
+<string name="gamehelper_license_failed">License check failed.</string>
+<string name="gamehelper_sign_in_failed">Verzuimd om in te loggen Controleer uw netwerkverbinding en probeer het opnieuw.</string>
+<string name="gamehelper_unknown_error">Onbekende fout.</string>
+
+<string name="draw_gms_option_title">Tekenen?</string>
+<string name="draw_gms_option_msg">Tegenstander biedt een gelijkspel.</string>
+<string name="draw_gms_try_again">Verzoek gestuurd, even geduld aub!</string>
+
+<string name="colortheme_gms_default">Standart online spel</string>
+
+<string name="gms_variant_opt_title">Kies tijdslimiet per zet.</string>
+<string name="gms_variant_opt_long_game">Lange spel (geen limiettijd)</string>
+<string name="gms_variant_opt_1min_game">1 min. per zet</string>
+<string name="gms_variant_opt_2min_game">2 min. per zet</string>
+<string name="gms_variant_opt_3min_game">3 min. per zet</string>
+
+<string name="gms_white_win_time">Einde partij, win wit!</string>
+<string name="gms_black_win_time">Einde partij, zwart win!</string>
+
+<string name="gms_exit_game_dialog_title">Verlaat het spel!</string>
+<string name="gms_exit_game_dialog_msg">Weet u zeker dat u uw spel te beëindigen en terug te keren?</string>
+
+<string name="str_gms_disp_rating">Rating:</string>
+<string name="str_gms_disp_win">w:</string>
+<string name="str_gms_disp_draw">t:</string>
+<string name="str_gms_disp_loss">v:</string>
+<!-- eng GMS -->
+</resources>

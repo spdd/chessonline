@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="btn_str_play">pojedynczy gracz</string>
+<string name="btn_str_stats">statystyki</string>
+<string name="btn_str_options">Opcje</string>
+<string name="btn_str_about">o</string>
+<string name="btn_str_multiplayer">grać online</string>
+<string name="btn_str_rate_app">Oceń grę</string>
+
+<string name="str_gms_please_wait">Proszę czekać</string>
+<string name="str_gms_accept_popup_invite">Akceptuję!</string>
+<string name="quick_game">Szybka gra</string>
+<string name="invite_players">Invate gracze</string>
+<string name="see_invitations">Zobacz zaproszenia</string>
+<string name="quick_game_explanation">Szybka gra wyjaśnienie</string>
+<string name="invite_players_explanation">Zaproś graczom wyjaśnienie</string>
+<string name="see_invitations_explanation">Zobacz Zaproszenia wyjaśnienie</string>
+<string name="inv_popup_text">Przychodzące zaproszenia!</string>
+<string name="accept_popup_invite">Akceptuję!</string>
+<string name="sign_out">westchnienie się</string>
+<string name="is_inviting_you">wyzywa Cię do gry!</string>
+<string name="str_gms_you_title">mnie</string>
+<string name="str_gms_btn_leaderboard">Rankingi</string>
+<string name="str_gms_btn_achive">osiągnięcie</string>
+<string name="str_gms_hi">Cześć,</string>
+<string name="str_gms_leave_opponent_toast">Przeciwnik opuścił mecz</string>
+
+<string name="gamehelper_app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
+<string name="gamehelper_license_failed">License check failed.</string>
+<string name="gamehelper_sign_in_failed">Nie można się zalogować proszę sprawdzić połączenie sieciowe i spróbuj ponownie.</string>
+<string name="gamehelper_unknown_error">Nieznany błąd.</string>
+
+<string name="draw_gms_option_title">Narysować?</string>
+<string name="draw_gms_option_msg">Przeciwnik oferuje do remisu.</string>
+<string name="draw_gms_try_again">Wniosek wysłany, proszę czekać!</string>
+
+<string name="colortheme_gms_default">Standart gra online</string>
+
+<string name="gms_variant_opt_title">Proszę wybrać termin na ruch.</string>
+<string name="gms_variant_opt_long_game">Długa gra (bez limitu czasu)</string>
+<string name="gms_variant_opt_1min_game">1 min. za ruch</string>
+<string name="gms_variant_opt_2min_game">2 min. za ruch</string>
+<string name="gms_variant_opt_3min_game">3 min. za ruch</string>
+
+<string name="gms_white_win_time">Koniec gry, białe wygrane!</string>
+<string name="gms_black_win_time">Koniec gry, czarny wygrane!</string>
+
+<string name="gms_exit_game_dialog_title">Wyjść z gry!</string>
+<string name="gms_exit_game_dialog_msg">Czy na pewno chcesz zakończyć grę i wrócić?</string>
+
+<string name="str_gms_disp_rating">Ocena:</string>
+<string name="str_gms_disp_win">w:</string>
+<string name="str_gms_disp_draw">r:</string>
+<string name="str_gms_disp_loss">s:</string>
+<!-- eng GMS -->
+</resources>

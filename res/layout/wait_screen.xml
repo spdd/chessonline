@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+			android:id="@+id/screen_wait" 
+			android:background="@drawable/bg_bluegradient" style="@style/LLScreen">
+       		<TextView style="@style/Blurb" android:text="@string/str_gms_please_wait" />
+</LinearLayout>

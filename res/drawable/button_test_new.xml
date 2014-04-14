@@ -1,0 +1,7 @@
+<layer-list
+	xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:drawable="@drawable/button_test_shadow"/>
+   <item
+     android:drawable="@drawable/button_test_inst"
+     android:bottom="17.0dp" />   
+</layer-list>

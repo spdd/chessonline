@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_id_gms">71991021633</string>
+
+    <string name="achievement_1200">CgkIwaD_l4wCEAIQBA</string>
+    <string name="achievement_1400">CgkIwaD_l4wCEAIQBQ</string>
+    <string name="achievement_1600">CgkIwaD_l4wCEAIQBg</string>
+    <string name="achievement_1800">CgkIwaD_l4wCEAIQBw</string>
+    <string name="achievement_2000">CgkIwaD_l4wCEAIQCA</string>
+    <string name="achievement_2200">CgkIwaD_l4wCEAIQCQ</string>
+    <string name="achievement_2400">CgkIwaD_l4wCEAIQCg</string>
+    <string name="achievement_2500">CgkIwaD_l4wCEAIQCw</string>
+    <string name="achievement_2500_GM">CgkIwaD_l4wCEAIQDA</string>
+    <string name="achievement_2600_PCM_1">CgkIwaD_l4wCEAIQDQ</string>
+    <string name="achievement_2700_PCM_2">CgkIwaD_l4wCEAIQDg</string>
+    <string name="achievement_2800_CM">CgkIwaD_l4wCEAIQDw</string>
+    
+    <string name="leaderboard_score">CgkIwaD_l4wCEAIQAw</string>
+    <string name="leaderboard_winners">CgkIwaD_l4wCEAIQAg</string>    
+</resources>

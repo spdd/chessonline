@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="btn_str_play">Одиночная игра</string> <!-- CM -->
+  <string name="btn_str_stats">Stats</string>
+  <string name="btn_str_options">Настройки</string> <!-- CM -->
+  <string name="btn_str_about">About</string>
+  <string name="btn_str_multiplayer">Онлайн игра</string> 
+  <string name="btn_str_rate_app">Оценить игру</string>
+       	
+  <string name="str_gms_please_wait">Пожалуйста подождите</string>
+  <string name="str_gms_accept_popup_invite">Accept!</string>   
+  <string name="quick_game">Простая игра</string>
+  <string name="invite_players">Играть с друзьями</string>
+  <string name="see_invitations">Посмотреть приглашения</string>
+  <string name="quick_game_explanation">Играйте со случайным соперником.</string>
+  <string name="invite_players_explanation">Пригласить друзей.</string>
+  <string name="see_invitations_explanation">Посмотреть приглашения.</string>
+  <string name="inv_popup_text">Входящее приглашение!</string>
+  <string name="accept_popup_invite">Принять!</string>
+  <string name="sign_out">Выйти</string>
+  <string name="is_inviting_you">is challenging you to a game!</string>       
+  <string name="str_gms_you_title">Я</string>       
+  <string name="str_gms_btn_leaderboard">Лидеры</string> 
+  <string name="str_gms_btn_achive">Достижения</string>	
+  <string name="str_gms_hi">Привет,</string>  
+  <string name="str_gms_leave_opponent_toast">Соперник покинул игру</string>  
+  
+  <string name="gamehelper_app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
+  <string name="gamehelper_license_failed">License check failed.</string>
+  <string name="gamehelper_sign_in_failed">Ошибка входа. Пожалуйста проверьте сетевое подключение и попробуйте еще раз.</string>
+  <string name="gamehelper_unknown_error">Неизвестная ошибка.</string>
+  
+  <string name="draw_gms_option_title">Ничья?</string>
+  <string name="draw_gms_option_msg">Соперник предлагает ничью</string>
+  <string name="draw_gms_try_again">Запрос отправлен, подождите немного!</string>
+  
+  <string name="colortheme_gms_default">Мультиплеер стандартный</string>
+  
+  <string name="gms_variant_opt_title">Предпочтение</string>
+  <string name="gms_variant_opt_long_game">Длинная игра</string>
+  <string name="gms_variant_opt_1min_game">1 мин. на ход</string>
+  <string name="gms_variant_opt_2min_game">2 мин. на ход</string>
+  <string name="gms_variant_opt_3min_game">3 мин. на ход</string>   
+  
+  <string name="gms_white_win_time">Партия закончена, белые победили!</string>
+  <string name="gms_black_win_time">Партия закончена, черные победили!</string>
+    
+  <string name="gms_exit_game_dialog_title">Выход из игры!</string>
+  <string name="gms_exit_game_dialog_msg">Партия еще не закончена! Вы действительно хотите выйти?</string> 
+  
+  <string name="str_gms_disp_rating">Рейтинг:</string>
+  <string name="str_gms_disp_win">Поб.:</string> 
+  <string name="str_gms_disp_draw">Нич.:</string>
+  <string name="str_gms_disp_loss">Пор.:</string>
+	<!-- eng GMS -->
+</resources>

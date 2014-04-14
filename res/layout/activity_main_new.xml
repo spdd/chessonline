@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidsam="http://schemas.android.com/apk/res/com.jameselsey" xmlns:bubble="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="top" android:orientation="vertical" android:visibility="gone" android:id="@+id/cap" android:background="#6FA234" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+      <!--  <LinearLayout android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="100.0dip" /> -->
+    </LinearLayout>
+    <ScrollView android:gravity="center" android:orientation="vertical" android:id="@+id/mainLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/cap" android:background="@drawable/bg_bluegradient">
+       	<LinearLayout android:id="@+id/mainButtons" android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+       	    <com.if3games.chessonline.other.AntonTextView android:gravity="center" 
+       	        android:visibility="visible" 
+       	        android:layout_width="fill_parent" 
+       	        android:layout_height="wrap_content" 
+       	        android:textColor="#ffffff"
+       	        android:shadowColor="#000000"
+		        android:shadowDx="1"
+		        android:shadowDy="1"
+		        android:shadowRadius="3"   	         
+       	        android:layout_marginBottom="10.0dip" 
+       	        android:layout_marginTop="10.0dip" 
+       	        android:text="@string/app_name" style="@style/h1TextStyle" />
+            <com.if3games.chessonline.other.FrancoisOneButton android:textColor="#ffffffff" android:layout_gravity="center" android:id="@+id/play" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginTop="60.0dp" android:layout_marginRight="60.0dip" android:text="@string/btn_str_play" android:textSize="25dp" android:background="@drawable/button_play_new" style="@style/MyButtonText" />
+            <com.if3games.chessonline.other.FrancoisOneButton android:textColor="#ffffffff" android:layout_gravity="center" android:id="@+id/multiplayer_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginTop="30.0dp" android:layout_marginRight="60.0dip" android:text="@string/btn_str_multiplayer" android:textSize="25dp" android:background="@drawable/button_play_new" style="@style/MyButtonText" />
+            <com.if3games.chessonline.other.FrancoisOneButton android:visibility="visible" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@+id/about" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginTop="30.0dp" android:layout_marginRight="60.0dip" android:text="@string/btn_str_options" android:background="@drawable/button_options_new" style="@style/MyButtonText" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" android:weightSum="3.0">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+               	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" >
+
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="bottom" android:id="@+id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:visibility="gone" android:background="@drawable/black_background_pattern">
+        <ImageView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/icon" />
+    </LinearLayout>
+</RelativeLayout>

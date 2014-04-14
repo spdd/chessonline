@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_marginTop="-10dp"
+    android:background="@android:drawable/title_bar"
+    android:orientation="vertical"
+    android:tag="title_players" >
+    <LinearLayout
+        android:id="@+id/players"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:tag="title_players" >
+        <TextView
+            android:id="@+id/first_player"
+            style="?android:attr/windowTitleStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="left"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="false"
+            android:singleLine="true"
+            android:tag="title_players" >
+        </TextView>
+        <TextView
+            android:id="@+id/vs"
+            style="?android:attr/windowTitleStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:tag="title_players"
+            android:text="vs">
+        </TextView>
+        <TextView
+            android:id="@+id/second_player"
+            style="?android:attr/windowTitleStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="right"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:tag="title_players" >
+        </TextView>
+    </LinearLayout>
+</LinearLayout>

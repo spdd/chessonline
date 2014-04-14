@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="btn_str_play">Single player</string> <!-- CM -->
+  <string name="btn_str_stats">Stats</string>
+  <string name="btn_str_options">Options</string> <!-- CM -->
+  <string name="btn_str_about">About</string>
+  <string name="btn_str_multiplayer">Play online</string>
+  <string name="btn_str_rate_app">Rate game</string>
+       	
+  <string name="str_gms_please_wait">Please wait</string>
+  <string name="str_gms_accept_popup_invite">Accept!</string>   
+  <string name="quick_game">Quick game</string>
+  <string name="invite_players">Invate players</string>
+  <string name="see_invitations">See invitations</string>
+  <string name="quick_game_explanation">Quick game explanation</string>
+  <string name="invite_players_explanation">Invite players explanation</string>
+  <string name="see_invitations_explanation">See invitations explanation</string>
+  <string name="inv_popup_text">Incoming invitation!</string>
+  <string name="accept_popup_invite">Accept!</string>
+  <string name="sign_out">Sigh out</string>
+  <string name="is_inviting_you">is challenging you to a game!</string>   
+  <string name="str_gms_you_title">Me</string>  
+  <string name="str_gms_btn_leaderboard">Leaderboards</string> 
+  <string name="str_gms_btn_achive">Achievement</string>	
+  <string name="str_gms_hi">Hi,</string>  
+  <string name="str_gms_leave_opponent_toast">Opponent left the game</string>  
+  
+  <string name="gamehelper_sign_in_failed">Failed to sign in. Please check your network connection and try again.</string>
+  <string name="gamehelper_unknown_error">Unknown error.</string>
+  
+  <string name="draw_gms_option_title">Draw?</string>
+  <string name="draw_gms_option_msg">Opponent offers a draw.</string>
+  <string name="draw_gms_try_again">Request sent, please wait!</string>
+  
+  <string name="colortheme_gms_default">Standart online game</string>
+  
+  <string name="gms_variant_opt_title">Please choose time limit per move.</string>
+  <string name="gms_variant_opt_long_game">Long game(no limit time)</string>
+  <string name="gms_variant_opt_1min_game">1 min. per move</string>
+  <string name="gms_variant_opt_2min_game">2 min. per move</string>
+  <string name="gms_variant_opt_3min_game">3 min. per move</string>   
+  
+  <string name="gms_white_win_time">Game over, white win!</string>
+  <string name="gms_black_win_time">Game over, black win!</string>
+    
+  <string name="gms_exit_game_dialog_title">Exit the game!</string>
+  <string name="gms_exit_game_dialog_msg">Are you sure you want to end your game and return?</string> 
+  
+  <string name="str_gms_disp_rating">Rating:</string>
+  <string name="str_gms_disp_win">W:</string> 
+  <string name="str_gms_disp_draw">D:</string>
+  <string name="str_gms_disp_loss">L:</string>
+	<!-- eng GMS -->
+</resources>

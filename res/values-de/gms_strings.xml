@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="btn_str_play">Einzelspieler</string>
+<string name="btn_str_stats">Statistik</string>
+<string name="btn_str_options">Optionen</string>
+<string name="btn_str_about">über</string>
+<string name="btn_str_multiplayer">spielen Sie online</string>
+<string name="btn_str_rate_app">Rate-Spiel</string>
+
+<string name="str_gms_please_wait">Bitte warten</string>
+<string name="str_gms_accept_popup_invite">Akzeptieren !</string>
+<string name="quick_game">Schnell Spiel</string>
+<string name="invite_players">Invate Spieler</string>
+<string name="see_invitations">siehe Einladungen</string>
+<string name="quick_game_explanation">Schnellspielerklärung</string>
+<string name="invite_players_explanation">Spieler einladen Erklärung</string>
+<string name="see_invitations_explanation">Siehe Erklärung Einladungen</string>
+<string name="inv_popup_text">Eingehende Einladung!</string>
+<string name="accept_popup_invite">Akzeptieren!</string>
+<string name="sign_out">Sigh aus</string>
+<string name="is_inviting_you">ist eine Herausforderung, Sie zu einem Spiel !</string>
+<string name="str_gms_you_title">mir</string>
+<string name="str_gms_btn_leaderboard">Ranglisten</string>
+<string name="str_gms_btn_achive">Leistung</string>
+<string name="str_gms_hi">Hallo,</string>
+<string name="str_gms_leave_opponent_toast">Gegner das Spiel verlassen</string>
+
+<string name="gamehelper_app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
+<string name="gamehelper_license_failed">License check failed.</string>
+<string name="gamehelper_sign_in_failed">Fehler beim loggen Sie sich Bitte überprüfen Sie Ihre Netzwerkverbindung und versuchen Sie es erneut .</string>
+<string name="gamehelper_unknown_error">Unbekannter Fehler.</string>
+
+<string name="draw_gms_option_title">Zeichnen?</string>
+<string name="draw_gms_option_msg">Gegner bietet ein Unentschieden.</string>
+<string name="draw_gms_try_again">Anfrage geschickt , bitte warten!</string>
+
+<string name="colortheme_gms_default">Standart Online-Spiel</string>
+
+<string name="gms_variant_opt_title">Bitte wählen Zeitlimit pro Zug .</string>
+<string name="gms_variant_opt_long_game">Langes Spiel (keine Zeitbegrenzung)</string>
+<string name="gms_variant_opt_1min_game">1 min. pro Zug</string>
+<string name="gms_variant_opt_2min_game">2 min. pro Zug</string>
+<string name="gms_variant_opt_3min_game">3 min. pro Zug</string>
+
+<string name="gms_white_win_time">Spielende, weiß Win!</string>
+<string name="gms_black_win_time">Spielende, schwarz Win!</string>
+
+<string name="gms_exit_game_dialog_title">Beenden Sie das Spiel!</string>
+<string name="gms_exit_game_dialog_msg">Sind Sie sicher, dass Sie Ihr Spiel beenden und wollen?</string>
+
+<string name="str_gms_disp_rating">Wertung:</string>
+<string name="str_gms_disp_win">w:</string>
+<string name="str_gms_disp_draw">z:</string>
+<string name="str_gms_disp_loss">v:</string>
+<!-- eng GMS -->
+</resources>

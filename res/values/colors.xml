@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="white">#ffffff</color>
+	<color name="almostwhite">#f0f0f0</color>
+	<color name="ivory">#fffff0</color>
+	<color name="lightgray">#d3d3d3</color>
+	<color name="perfect">#fff666</color>
+	<color name="good">#73b66b</color>
+	<color name="meh">#b39f73</color>
+	<color name="red">#ff0000</color>
+	<color name="my_yellow">#F4B130</color>
+	<color name="mainLayoutBackgroundColor">#ffffffff</color>
+	<color name="winBorderLayoutBackgroundColor">#ff000000</color>
+	<color name="nolivestimer_blue">#419DDB</color>
+	<color name="nolivestimer_red">#D4443B</color>
+    <color name="AccentColor">#cc0000</color>
+    <color name="PopupColor">@color/AccentColor</color>
+    <color name="PopupTextColor">#ffffff</color>
+    <color name="ButtonTextColor">#ffffff</color>
+    <color name="BlurbColor">#a0a0a0</color>
+    <color name="SignOutButtonBackground">#e0e0e0</color>
+    <color name="SignOutButtonTextColor">#404040</color>
+</resources>

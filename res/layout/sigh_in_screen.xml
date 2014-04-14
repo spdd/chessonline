@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/screen_sign_in"
+    android:background="@drawable/bg_bluegradient" 
+    style="@style/LLScreen">
+    <com.google.android.gms.common.SignInButton 
+        android:id="@+id/button_sign_in"
+        style="@style/SignInButton" />
+</LinearLayout>

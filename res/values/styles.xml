@@ -1,0 +1,524 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:textColorPrimaryInverse">@android:color/primary_text_light</item>
+    </style>
+    
+        <style name="h1TextStyle" parent="@android:style/Widget.TextView">
+
+        <item name="android:textSize">35.0dip</item>
+
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:textColor">#ff434343</item>
+
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name="h2TextStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">27.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffbababa</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">2.0</item>       
+    </style>
+
+    <style name="h2TextStyleCommons" parent="@android:style/Widget.TextView">
+
+        <item name="android:textSize">25.0dip</item>
+
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:textColor">#ffbababa</item>
+
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name="h4TextStyle" parent="@android:style/Widget.TextView">
+
+        <item name="android:textSize">22.0dip</item>
+
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:textColor">#ff242424</item>
+
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name="hintsButtonStyleCommons" parent="@android:style/Widget.Button">
+
+        <item name="android:textSize">16.0dip</item>
+
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:textColor">#ff707070</item>
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:background">@drawable/button_hint</item>
+
+        <item name="android:focusable">true</item>
+
+        <item name="android:clickable">true</item>
+
+    </style>
+
+    <style name="hintsTextStyleCommons" parent="@android:style/Widget.TextView">
+
+        <item name="android:textSize">16.0dip</item>
+
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:textColor">#ff242424</item>
+
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name="buttonStyle" parent="@android:style/Widget.Button">
+
+        <item name="android:textSize">20.0dip</item>
+
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:textColor">#ff434343</item>
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:background">@drawable/button</item>
+
+        <item name="android:focusable">true</item>
+
+        <item name="android:clickable">true</item>
+
+    </style>
+
+    <style name="tapjoyButtonStyle" parent="@android:style/Widget.Button">
+
+        <item name="android:textSize">20.0dip</item>
+
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:textColor">#ffffffff</item>
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:background">@drawable/button</item>
+
+        <item name="android:focusable">true</item>
+
+        <item name="android:clickable">true</item>
+
+        <item name="android:shadowColor">#ff005d92</item>
+
+        <item name="android:shadowDx">-1.0</item>
+
+        <item name="android:shadowDy">-1.0</item>
+
+        <item name="android:shadowRadius">1.2</item>
+
+    </style>
+
+    <style name="showHintButtonStyle" parent="@android:style/Widget.Button">
+
+        <item name="android:textSize">20.0dip</item>
+
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:textColor">#ffffffff</item>
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:background">@drawable/button</item>
+
+        <item name="android:focusable">true</item>
+
+        <item name="android:clickable">true</item>
+
+        <item name="android:shadowColor">#ff7c0000</item>
+
+        <item name="android:shadowDx">-1.0</item>
+
+        <item name="android:shadowDy">-1.0</item>
+
+        <item name="android:shadowRadius">1.2</item>
+
+    </style>
+
+    <style name="Dialog_Fullscreen">
+
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+    <style name="h6TextStyle" parent="@android:style/Widget.TextView">
+
+        <item name="android:textSize">15.0dip</item>
+
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:textColor">#ff242424</item>
+
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#000000</item>
+
+        <item name="android:shadowDx">1.0</item>
+
+        <item name="android:shadowDy">-1.0</item>
+
+        <item name="android:shadowRadius">2.0</item>
+
+    </style>
+
+    <style name="h3TextStyle" parent="@android:style/Widget.TextView">
+
+        <item name="android:textSize">20.0dip</item>
+
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:textColor">#ffbababa</item>
+
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name="greenButtonStyle" parent="@android:style/Widget.Button">
+
+        <item name="android:textSize">20.0dip</item>
+
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:textColor">#ffffffff</item>
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:background">@drawable/greenbutton</item>
+
+        <item name="android:clickable">true</item>
+
+        <item name="android:shadowColor">#ff000000</item>
+
+        <item name="android:shadowDx">0.0</item>
+
+        <item name="android:shadowDy">-1.0</item>
+
+        <item name="android:shadowRadius">0.2</item>
+        
+        <item name="android:focusable">false</item>
+
+        <item name="android:focusableInTouchMode">false</item>
+
+    </style>
+    
+        <style name="levelSelectorUnlockStyle" parent="@android:style/Widget.Button">
+
+        <item name="android:textSize">20.0dip</item>
+
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:textColor">#ffffffff</item>
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:background">@drawable/level_sevector_button_blue</item>
+
+        <item name="android:clickable">false</item>
+          
+        <item name="android:focusable">false</item>
+
+        <item name="android:focusableInTouchMode">false</item>
+
+    </style>
+
+    <style name="levelTextStyle" parent="@android:style/Widget.TextView">
+
+        <item name="android:textSize">22.0dip</item>
+
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:textColor">#ffffffff</item>
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:focusable">true</item>
+
+        <item name="android:clickable">true</item>
+
+        <item name="android:shadowColor">#000000</item>
+
+        <item name="android:shadowDx">1.0</item>
+
+        <item name="android:shadowDy">-1.0</item>
+
+        <item name="android:shadowRadius">2.0</item>
+
+    </style>
+
+    <style name="levelScoreLabelTextStyle" parent="@android:style/Widget.TextView">
+
+        <item name="android:textSize">18.0dip</item>
+
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:textColor">#ffffffff</item>
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:paddingBottom">3.0dip</item>
+
+        <item name="android:focusable">true</item>
+
+        <item name="android:clickable">true</item>
+
+        <item name="android:shadowColor">#000000</item>
+
+        <item name="android:shadowDx">1.0</item>
+
+        <item name="android:shadowDy">-1.0</item>
+
+        <item name="android:shadowRadius">2.0</item>
+
+    </style>
+
+    <style name="levelScoreTextStyle" parent="@android:style/Widget.TextView">
+
+        <item name="android:textSize">20.0dip</item>
+
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:textColor">#ffffffff</item>
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:paddingBottom">0.0dip</item>
+
+        <item name="android:focusable">true</item>
+
+        <item name="android:clickable">true</item>
+
+        <item name="android:shadowColor">#000000</item>
+
+        <item name="android:shadowDx">1.0</item>
+
+        <item name="android:shadowDy">-1.0</item>
+
+        <item name="android:shadowRadius">2.0</item>
+
+    </style>
+
+    <style name="levelInnerLayoutStyle">
+
+        <item name="android:paddingLeft">3.0dp</item>
+
+        <item name="android:paddingRight">3.0dp</item>
+
+    </style>
+
+    <style name="hintsButtonStyle" parent="@android:style/Widget.Button">
+
+        <item name="android:textSize">16.0dip</item>
+
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:textColor">#ff707070</item>
+
+        <item name="android:gravity">center</item>
+
+        <item name="android:background">@drawable/button_hint</item>
+
+        <item name="android:focusable">true</item>
+
+        <item name="android:clickable">true</item>
+
+    </style>
+
+    <style name="hintsTextStyle" parent="@android:style/Widget.TextView">
+
+        <item name="android:textSize">16.0dip</item>
+
+        <item name="android:textStyle">normal</item>
+
+        <item name="android:textColor">#ff242424</item>
+
+        <item name="android:gravity">center</item>
+
+    </style>
+    
+    <style name="HThemeButton" parent="@android:style/Widget.Button">
+    	<item name="android:background">@drawable/hbutton</item>
+    	<item name="android:textSize">20.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff434343</item>
+        <item name="android:gravity">center</item>
+	</style>
+	
+    <style name="MyButtonText">
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:textSize">23dp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	    <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+	</style>
+	
+    <style name="MyButtonHelperAndShareText">
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:textSize">25dp</item>
+	    <item name="android:textStyle">bold</item>
+	</style>
+	
+    <style name="MySolutionInputText">
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:textSize">19dp</item>
+	    <item name="android:textStyle">bold</item>
+	</style>
+	
+	<style name="MySolutionInputTextButton" parent="@android:style/Widget.Button">
+
+	</style>
+	    
+    <style name="MyLetterText">
+	    <item name="android:textColor">@android:color/black</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:textSize">29dp</item>
+	    <item name="android:textStyle">bold</item>
+	</style>
+	
+    <style name="letterButtons" parent="@android:style/Widget.Button">
+		<item name="android:textSize">15dp</item>
+		<item name = "android:textStyle">bold</item>
+		<item name = "android:layout_height">40dp</item>
+		<item name = "android:layout_width">40dp</item>
+		<item name = "android:gravity">center</item>
+		<item name = "android:background">@drawable/btn_default_normal</item>
+	</style>
+	<style name="InputBoxButtons" parent="@android:style/Widget.Button">
+		<item name="android:textSize">15dp</item>
+		<item name = "android:textStyle">bold</item>
+		<item name = "android:layout_height">40dp</item>
+		<item name = "android:layout_width">40dp</item>
+		<item name = "android:gravity">center</item>
+		<item name = "android:background">@drawable/btn_default_normal</item>
+	</style>
+	
+	<style name="MainTitleTextStyle" parent="@android:style/TextAppearance">
+	    <item name="android:textSize">55.0dp</item>
+        <item name="android:textColor">#ff434343</item>
+        <item name="android:gravity">center</item>
+	    <item name="android:typeface">serif</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">3</item>
+  </style>
+  <style name="TextViewShadowStyle" parent="@android:style/Widget.TextView">
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">2.0</item>
+  </style>
+  
+    <style name="GameScreen">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:visibility">visible</item>
+    </style>
+  
+    <style name="LLScreen" parent="@style/GameScreen">
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">30dp</item>
+    </style>  
+    
+    <style name="InvPopup" parent="@style/LLScreen">
+        <item name="android:background">@color/PopupColor</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_gravity">top|right</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>    
+    
+    <style name="Blurb">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/BlurbColor</item>
+    </style>
+
+    <style name="GameBlurb" parent="@style/Blurb">
+        <item name="android:layout_marginBottom">40dp</item>
+    </style>
+
+    <style name="SignInButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">40dp</item>
+    </style>
+
+    <style name="GameButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/AccentColor</item>
+        <item name="android:textColor">@color/ButtonTextColor</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <style name="MainScreenButton" parent="@style/GameButton">
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="MainScreenButtonBlurb" parent="@style/GameBlurb">
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="InvPopupText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/PopupTextColor</item>
+        <item name="android:text">@string/inv_popup_text</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="InvPopupButton" parent="@style/GameButton">
+        <item name="android:background">@color/ButtonTextColor</item>
+        <item name="android:textColor">@color/AccentColor</item>
+    </style>
+
+    <style name="SignOutButton" parent="@style/GameButton">
+        <item name="android:background">@color/SignOutButtonBackground</item>
+        <item name="android:textColor">@color/SignOutButtonTextColor</item>
+    </style>    
+</resources>

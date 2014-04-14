@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	    android:id="@+id/screen_main" 
+	    android:background="@drawable/bg_bluegradient"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:gravity="center"
+	    android:orientation="vertical" >
+	    <LinearLayout
+		    android:layout_width="fill_parent"
+		    android:id="@+id/dap"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:orientation="vertical" >
+		    <com.if3games.chessonline.other.FrancoisOneTextView
+					android:id="@+id/playerDispNameId"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:layout_marginBottom="10dp"
+					android:gravity="center"
+					android:textSize="23dp"
+					android:textStyle="bold"
+					android:textColor="@color/my_yellow"
+					android:typeface="serif"
+					android:shadowColor="#000000"
+					android:shadowDx="1"
+					android:shadowDy="1"
+					android:shadowRadius="3"
+					android:text="Hi Player Name"/>	
+		    <com.if3games.chessonline.other.FrancoisOneTextView
+		        	android:visibility="visible"
+					android:id="@+id/playerDispScoreId"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="10dp"
+					android:paddingLeft="5.0dp"
+					android:gravity="center"
+					android:textSize="12dp"
+					android:textStyle="bold"
+					android:typeface="serif"
+					android:shadowColor="#000000"
+					android:shadowDx="1"
+					android:shadowDy="1"
+					android:shadowRadius="3"
+					android:text="You Score: 109"
+					android:textColor="@android:color/white"/>	
+		    <com.if3games.chessonline.other.FrancoisOneTextView
+		        	android:visibility="gone"
+					android:id="@+id/playerDispRankId"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="10dp"
+					android:paddingLeft="5.0dp"
+					android:gravity="center"
+					android:textSize="18dp"
+					android:textStyle="bold"
+					android:typeface="serif"
+					android:shadowColor="#000000"
+					android:shadowDx="1"
+					android:shadowDy="1"
+					android:shadowRadius="3"
+					android:text="You Rank: 100"
+					android:textColor="@android:color/white"/>	        
+		</LinearLayout>
+		<ScrollView android:gravity="center" android:orientation="vertical" android:id="@+id/mainLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/dap">
+		    <LinearLayout android:id="@+id/mainButtons" android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			    
+			    <com.if3games.chessonline.other.FrancoisOneButton 
+			        android:textColor="#ffffffff" 
+			        android:layout_gravity="center" 
+			        android:id="@+id/button_quick_game" 
+			        android:layout_width="fill_parent" 
+			        android:layout_height="wrap_content" 
+			        android:layout_marginLeft="60.0dip" 
+			        android:layout_marginTop="20.0dp" 
+			        android:layout_marginRight="60.0dip" 
+			        android:text="@string/quick_game" 
+			        android:textSize="22dp" 
+			        android:background="@drawable/button_play_new" 
+			        style="@style/MyButtonText" />
+			
+			     <TextView style="@style/MainScreenButtonBlurb"
+			        android:text="@string/quick_game_explanation" />
+			        
+			     <com.if3games.chessonline.other.FrancoisOneButton 
+			        android:textColor="#ffffffff" 
+			        android:layout_gravity="center" 
+			        android:id="@+id/button_invite_players" 
+			        android:layout_width="fill_parent" 
+			        android:layout_height="wrap_content" 
+			        android:layout_marginLeft="60.0dip" 
+			        android:layout_marginTop="5.0dp" 
+			        android:layout_marginRight="60.0dip" 
+			        android:text="@string/invite_players" 
+			        android:textSize="15dp" 
+			        android:background="@drawable/button_play_new" 
+			        style="@style/MyButtonText" />
+			     
+			     <TextView style="@style/MainScreenButtonBlurb"
+			        android:text="@string/invite_players_explanation" />
+			        
+			     <com.if3games.chessonline.other.FrancoisOneButton 
+			        android:textColor="#ffffffff" 
+			        android:layout_gravity="center" 
+			        android:id="@+id/button_see_invitations" 
+			        android:layout_width="fill_parent" 
+			        android:layout_height="wrap_content" 
+			        android:layout_marginLeft="60.0dip" 
+			        android:layout_marginTop="5.0dp" 
+			        android:layout_marginRight="60.0dip" 
+			        android:text="@string/see_invitations" 
+			        android:textSize="15dp" 
+			        android:background="@drawable/button_play_new" 
+			        style="@style/MyButtonText" />
+			     
+			     <TextView style="@style/MainScreenButtonBlurb"
+			        android:text="@string/see_invitations_explanation" />
+			        
+			     <com.if3games.chessonline.other.FrancoisOneButton 
+			        android:textColor="#ffffffff" 
+			        android:layout_gravity="center" 
+			        android:id="@+id/button_leaderboard" 
+			        android:layout_width="fill_parent" 
+			        android:layout_height="wrap_content" 
+			        android:layout_marginLeft="60.0dip" 
+			        android:layout_marginTop="5.0dp" 
+			        android:layout_marginRight="60.0dip" 
+			        android:text="@string/str_gms_btn_leaderboard" 
+			        android:textSize="20dp" 
+			        android:background="@drawable/button_inopt_new" 
+			        style="@style/MyButtonText" />
+			     
+			        <TextView style="@style/MainScreenButtonBlurb"
+			            android:text="@string/str_gms_btn_leaderboard" />
+			        
+			     <com.if3games.chessonline.other.FrancoisOneButton 
+			        android:textColor="#ffffffff" 
+			        android:layout_gravity="center" 
+			        android:id="@+id/button_achive" 
+			        android:layout_width="fill_parent" 
+			        android:layout_height="wrap_content" 
+			        android:layout_marginLeft="60.0dip" 
+			        android:layout_marginTop="5.0dp" 
+			        android:layout_marginRight="60.0dip" 
+			        android:text="@string/str_gms_btn_achive" 
+			        android:textSize="20dp" 
+			        android:background="@drawable/button_inopt_new" 
+			        style="@style/MyButtonText" />
+			     
+			     <TextView style="@style/MainScreenButtonBlurb"
+			        android:text="@string/str_gms_btn_achive" />
+			     
+			     <com.if3games.chessonline.other.FrancoisOneButton 
+			        android:textColor="#ffffffff" 
+			        android:layout_gravity="center" 
+			        android:id="@+id/button_sign_out" 
+			        android:layout_width="fill_parent" 
+			        android:layout_height="wrap_content" 
+			        android:layout_marginLeft="60.0dip" 
+			        android:layout_marginTop="5.0dp" 
+			        android:layout_marginRight="60.0dip" 
+			        android:text="@string/sign_out" 
+			        android:textSize="20dp" 
+			        android:background="@drawable/button_red_new" 
+			        style="@style/MyButtonText" />
+		
+		        </LinearLayout>
+			</ScrollView>
+</LinearLayout>
